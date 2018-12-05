@@ -8,42 +8,52 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="nav-bar-container">
+      <div class="spacer"></div>
       <h1 class="bigName">Byron Miller</h1>
-      <div class="nav">About</div>
-      <div class="nav">Portfolio</div>
-      <div class="nav">Contact</div>
+      <div class="nav-spacer">
+        <div class="nav"><a href="./index.html">About</a></div>
+        <div class="nav"><a href="./portfolio.html">Portfolio</a></div>
+        <div class="nav"><a href="./contact.html">Contact</a></div>
+      </div>
     </header>
 
     <main class="body">
-      <div class="bigNameInvert">Contact</div>
-      <hr />
-      <section class="form">
-        <form action="#" method="#">
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" />
-          </div>
-          <div>
-            <label for="mail">Email:</label>
-            <input type="email" id="mail" name="user_mail" />
-          </div>
-          <div>
-            <label for="msg">Name:</label>
-            <textarea
-              name="user_message"
-              id="msg"
-              cols="30"
-              rows="10"
-            ></textarea>
-          </div>
+      <section class="aboutMe">
+        <h1 class="bigNameInvert">Contact</h1>
+        <hr />
+        <section class="form">
+          <form action="#" method="#">
+            <div>
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="user_name" value="John Smith"/>
+            </div>
+            <div>
+              <label for="mail">Email:</label><br>
+              <input type="email" id="mail" name="user_mail" value="example@gmail.com"/>
+            </div>
+            <div>
+              <label for="msg">Message:</label><br>
+              <textarea
+                name="user_message"
+                id="msg"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
 
-          <div class="button">
-            <button type="submit">Send Your Message</button>
-          </div>
-        </form>
+            <div class="button">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </section>
       </section>
     </main>
-    <footer>Copyright ©</footer>
+    <footer>
+        <div id="greenStrip"></div>
+        <p id=footerCopy>
+          Copyright ©
+        </p> 
+      </footer>
   </body>
 </html>

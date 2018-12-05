@@ -8,15 +8,18 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="nav-bar-container">
+      <div class="spacer"></div>
       <h1 class="bigName">Byron Miller</h1>
-      <div class="nav nav-strip">About</div>
-      <div class="nav nav-strip">Portfolio</div>
-      <div class="nav nav-strip">Contact</div>
+      <div class="nav-spacer">
+        <div class="nav"><a href="./index.html">About</a></div>
+        <div class="nav"><a href="./portfolio.html">Portfolio</a></div>
+        <div class="nav"><a href="./contact.html">Contact</a></div>
+      </div>
     </header>
 
     <main class="body">
-      <div class="bigNameInvert">Portfolio</div>
+      <h1 class="bigNameInvert">Portfolio</h1>
       <hr />
       <img
         src="assets/images/hammered.jpg"
@@ -45,6 +48,11 @@
       />
     </main>
 
-    <footer>Copyright ©</footer>
+    <footer>
+        <div id="greenStrip"></div>
+        <p id=footerCopy>
+          Copyright ©
+        </p> 
+      </footer>
   </body>
 </html>

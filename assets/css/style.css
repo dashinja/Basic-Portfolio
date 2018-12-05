@@ -6,6 +6,7 @@ body {
   color: #777777;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   background-color: #777777;
+  max-width: 1920px;
 }
 
 /*Header and Nav-Bar*/
@@ -24,26 +25,27 @@ header {
   float: left;
   height: 2em;
   margin: 0 0 0 6em;
-  padding: 0.6em 0.8em 0.1em 0.8em;
+  padding: 0.6em 0.8em 0.1em 0.79em;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav {
-  margin: 1.5em 1em 1em 1em;
+  margin: 1.5em 0.8em 1em 1em;
   float: left;
   font-size: 1.15em;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .nav-spacer {
-  margin: 0 0 0 50em;
+  margin: 0 0 0 25.5em;
   float: left;
 }
 
 /* About Me Section */
 .body {
   background-color: #ffffff;
-  margin: 2em 24em 2em 12em;
+  max-width: 960px;
+  margin: 2em 12em 2em 12em;
 }
 
 h1.aboutMe {
@@ -53,7 +55,7 @@ h1.aboutMe {
 .bigNameInvert {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 1em 1em 1em 0.9em;
+  margin: 1em 1em 1em 0.6em;
   padding-top: 1em;
   font-size: 2em;
 }
@@ -66,14 +68,89 @@ hr {
 
 img {
   float: left;
-  margin: 1em 2em 2em 2em;
+  margin: 1em 2em 2em 1.25em;
   width: 20%;
 }
 
 article {
-  margin-left: 2em;
+  margin-left: 1.25em;
   margin-right: 2em;
   font-size: 1.1em;
 }
 
+section.aboutMe {
+  padding-bottom: 1em;
+}
+
 /* Footer Section */
+#greenStrip {
+  background-color: #4aaaa5;
+  height: 0.5em;
+}
+
+/* <--- These are the colors required for the exercise. Why then does #777777 not stand out more over the #666666 like the example? ---> */
+/* footer {
+  position: static;
+  background-color: #666666;
+  margin: 0 auto;
+  height: 55px;
+} */
+
+/* footer {
+  position: absolute;
+  background-color: #666666;
+  margin: 0 auto;
+  height: 55px;
+} */
+
+/* footer {
+  background-color: #666666;
+  margin: 0 auto;
+  height: 55px;
+} */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #666666;
+  margin: 0 auto;
+  height: 55px;
+  width: 100%;
+}
+
+/* footer {
+  position: sticky;
+  background-color: #666666;
+  margin: 0 auto;
+  height: 55px;
+} */
+
+#footerCopy {
+  text-align: center;
+  color: #777777;
+}
+
+/* Contact Page Specific - Forms */
+section.form {
+  margin-left: 1em;
+  font-size: 1.2em;
+}
+
+label {
+  margin: 0.25em auto;
+}
+input {
+  margin: 0.85em auto;
+  line-height: 1.5em;
+}
+
+button {
+  background-color: #4aaaa5;
+  padding: 0.45em 1.2em;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+textarea {
+  margin-bottom: 1em;
+}
