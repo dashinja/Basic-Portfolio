@@ -1,0 +1,40 @@
+/*General Stylings*/
+
+body {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  color: #777777;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.body {
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+/*Header and Nav-Bar*/
+header {
+  height: 5em;
+  margin: 0px;
+  border-bottom-style: solid;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bigName {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  float: left;
+  height: 2em;
+  margin: 0 0 0 2em;
+  padding-top: 1em;
+}
+
+.nav {
+  margin: 10px;
+  float: right;
+}
+
+.bigNameInvert {
+  color: #4aaaa5;
+}
