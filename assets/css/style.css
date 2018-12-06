@@ -65,12 +65,20 @@ header {
 
 /* About Me Section */
 .main-body {
+<<<<<<< HEAD
   /* background-color: #ffffff; */
   background-color: #111111;
   max-width: 100%;
   height: 100%;
   margin: 2em 12em 6rem 12em;
   overflow: auto;
+=======
+  background-color: #ffffff;
+  max-width: 100%;
+  height: 100%;
+  margin: 2em 12em 6rem 12em;
+  overflow: visible;
+>>>>>>> 8864f8d525f1bc73bd8341208a8376538ddb5e07
 }
 
 section.aboutMe {
