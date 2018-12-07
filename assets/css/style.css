@@ -28,6 +28,17 @@ body {
   }
 }
 
+body html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.stretcher {
+  min-height: 100%;
+  position: relative;
+}
+
 /*Header and Nav-Bar*/
 header {
   background-color: #222b2a;
@@ -64,21 +75,19 @@ header {
 }
 
 /* About Me Section */
+
+#bigContainer {
+  min-height: 100%;
+  position: relative;
+}
+
 .main-body {
-<<<<<<< HEAD
   /* background-color: #ffffff; */
   background-color: #111111;
   max-width: 100%;
   height: 100%;
   margin: 2em 12em 6rem 12em;
   overflow: auto;
-=======
-  background-color: #ffffff;
-  max-width: 100%;
-  height: 100%;
-  margin: 2em 12em 6rem 12em;
-  overflow: visible;
->>>>>>> 8864f8d525f1bc73bd8341208a8376538ddb5e07
 }
 
 section.aboutMe {
@@ -128,42 +137,14 @@ p#indentMe {
   height: 0.5em;
 }
 
-/* <--- These are the colors required for the exercise. Why then does #777777 not stand out more over the #666666 like the example? ---> */
-/* footer {
-  position: static;
-  background-color: #666666;
-  margin: 0 auto;
-  height: 55px;
-} */
-
-/* footer {
+.bigFooter {
   position: absolute;
-  background-color: #666666;
-  margin: 0 auto;
-  height: 55px;
-} */
-
-/* footer {
-  background-color: #666666;
-  margin: 0 auto;
-  height: 55px;
-} */
-
-footer {
-  position: fixed;
-  bottom: 0;;
-  background-color: #666666;
-  margin: 0 auto;
-  height: 50px;
+  bottom: 0;  
   width: 100%;
-}
-
-/* footer {
-  position: sticky;
+  height: 2em;
   background-color: #666666;
-  margin: 0 auto;
-  height: 55px;
-} */
+
+}
 
 #footerCopy {
   text-align: center;
